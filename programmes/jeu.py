@@ -1,7 +1,7 @@
 from Labyrinthe import *
 from GenLabyrinthe import *
 
-tableau=randomize(tailleTab(15))
+tableau=randomize(tailleTab())
 main(tableau)
 class Labyrinthe(object):
     def __init__(self,dimension):
